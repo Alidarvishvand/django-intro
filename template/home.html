@@ -6,6 +6,8 @@
     <title>home</title>
 </head>
 <body>
-    <h3>Home</h3>
+    {% for Todo in all %}
+    {{ Todo.title }}
+    {% endfor %}
 </body>
 </html>
