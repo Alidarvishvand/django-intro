@@ -1,8 +1,0 @@
-{% extends 'base.html' %}
-
-{% block content %}
-    {% for Todo in all %}
-    <h3>{{ Todo.title }}</h3>
-    <p> {{ Todo.created }}</p>
-    {% endfor %}
-{% endblock %}
