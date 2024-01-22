@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .models import Todo
 from django.contrib import messages
 from .forms import TodoCreateForm,TodoUpdateForm
+
 # Create your views here.
 
 
